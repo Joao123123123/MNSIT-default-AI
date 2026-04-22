@@ -23,9 +23,9 @@ bias1.npy, bias2.npy, bias3.npy: Adjusted biases learned by the model.
 main.py: The core script containing the training loop, forward pass, and backpropagation logic.
 
 How to Run
-
 Ensure the MNIST dataset is organized into folders labeled 0 through 9.
 Update the dataset path in the script to point to your local files.
+DOWNLOAD THE PIL AND NUMPY LIBRARIES
 Run the script. The system will automatically load existing weights or generate new ones if the .npy files are missing.
 
 OBS:
